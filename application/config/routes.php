@@ -52,3 +52,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'defaults';
 $route['404_override'] = 'errors/pageMissing';
 $route['translate_uri_dashes'] = FALSE;
+
+
+// Admin Routes.
+$route['admin'] = 'admin/auth/auth';
+$route['admin/register'] = 'admin/auth/auth/register';
+$route['admin/resset'] = 'admin/auth/auth/resset';
+$route['admin/dashboard'] = 'admin/dashboard/dashboard';
+$route['admin/role'] = 'admin/role/role';

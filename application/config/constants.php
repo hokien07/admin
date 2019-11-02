@@ -83,3 +83,19 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Defined string notification.
+|--------------------------------------------------------------------------
+|
+*/
+defined('PASSWORD_NOT_MATCH')           OR define('PASSWORD_NOT_MATCH', 'Mật khẩu không khớp');
+defined('EMAIL_EXITES')                 OR define('EMAIL_EXITES', 'Email đã tồn tại');
+defined('USER_NAME_EXITES')             OR define('USER_NAME_EXITES', 'Tài khoản đã tồn tại');
+defined('REGISTER_FAILED')             OR define('REGISTER_FAILED', 'Đăg ký không thành công');
+defined('PUBLISH')             OR define('PUBLISH', 0);
+defined('UNPUBLISH')             OR define('UNPUBLISH', 1);
