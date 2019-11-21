@@ -60,3 +60,4 @@ $route['admin/register'] = 'admin/auth/auth/register';
 $route['admin/resset'] = 'admin/auth/auth/resset';
 $route['admin/dashboard'] = 'admin/dashboard/dashboard';
 $route['admin/role'] = 'admin/role/role';
+$route['admin/role/add'] = 'admin/role/role/add';

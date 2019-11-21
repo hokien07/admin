@@ -96,6 +96,10 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 defined('PASSWORD_NOT_MATCH')           OR define('PASSWORD_NOT_MATCH', 'Mật khẩu không khớp');
 defined('EMAIL_EXITES')                 OR define('EMAIL_EXITES', 'Email đã tồn tại');
 defined('USER_NAME_EXITES')             OR define('USER_NAME_EXITES', 'Tài khoản đã tồn tại');
-defined('REGISTER_FAILED')             OR define('REGISTER_FAILED', 'Đăg ký không thành công');
-defined('PUBLISH')             OR define('PUBLISH', 0);
-defined('UNPUBLISH')             OR define('UNPUBLISH', 1);
+defined('REGISTER_FAILED')              OR define('REGISTER_FAILED', 'Đăg ký không thành công');
+defined('PUBLISH')                      OR define('PUBLISH', 0);
+defined('UNPUBLISH')                    OR define('UNPUBLISH', 1);
+defined('ADD_ERROR')                    OR define('ADD_ERROR', 'Thêm không thành công');
+defined('ADD_SUCCESS')                  OR define('ADD_SUCCESS', 'Thêm thành công');
+defined('EDIT_ERROR')                   OR define('EDIT_ERROR', 'Cập nhật không thành công');
+defined('EDIT_SUCCESS')                 OR define('EDIT_SUCCESS', 'Cập nhật thành công');
